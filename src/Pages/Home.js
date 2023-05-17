@@ -15,7 +15,7 @@ function Home() {
           <h2 className="text-6xl text-center py-2">3 Weeks</h2>
         </div>
         <div className="rounded bg-white h-40 min-height-40 shadow bg-blue-300 text-white py-3">
-          <h2 className="text-2xl text-center">New Registrations</h2>
+          <h2 className="text-2xl text-center">New Registration</h2>
           <h2 className="text-6xl text-center py-2">48</h2>
         </div>
       </div>
