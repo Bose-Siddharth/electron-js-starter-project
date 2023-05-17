@@ -1,5 +1,4 @@
 import React from "react";
-import './Home.css'
 
 function Home() {
   return (
@@ -7,15 +6,15 @@ function Home() {
       <p className="text-gray-700 text-3xl mb-16 font-bold">Dashboard</p>
 
       <div className="grid lg:grid-cols-3 gap-5 mb-16">
-        <div className="rounded bg-white h-auto min-height-40 shadow bg-sky-300 py-3 text-white">
-          <h2 className="text-2xl text-center">Registrations</h2>
+        <div className="rounded bg-white h-auto min-height-40 shadow bg-blue-300 py-3 text-white">
+          <h2 className="text-2xl text-center">Registration</h2>
           <h2 className="text-6xl text-center py-2">3000</h2>
         </div>
-        <div className="rounded bg-white h-auto min-height-40 shadow bg-sky-300 text-white py-3">
+        <div className="rounded bg-white h-auto min-height-40 shadow bg-blue-300 text-white py-3">
           <h2 className="text-2xl text-center">Time</h2>
           <h2 className="text-6xl text-center py-2">3 Weeks</h2>
         </div>
-        <div className="rounded bg-white h-40 min-height-40 shadow bg-sky-300 text-white py-3">
+        <div className="rounded bg-white h-40 min-height-40 shadow bg-blue-300 text-white py-3">
           <h2 className="text-2xl text-center">New Registrations</h2>
           <h2 className="text-6xl text-center py-2">48</h2>
         </div>
@@ -29,10 +28,10 @@ function Home() {
         </p>
         <div class="flex justify-center gap-10 h-10">
           <button type="submit" className="py-2 px-10 bg-cyan-300">
-            Confirm
+            Automate
           </button>
           <button type="submit" className="py-2 px-10 bg-cyan-300">
-            Cancel
+            Update Database
           </button>
         </div>
       </div>
